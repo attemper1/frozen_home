@@ -40,15 +40,16 @@ h2{
     opacity: .6;
 }
 #home>.container{
-    float: right;
-    margin-top: 340px;
-    margin-right: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px 6px #333;
 }
-#home>.conainer>img{
-    margin-bottom: 10px;
+#home>.container>img{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
 }
 #home>.container>p{
     font-size: 20px;

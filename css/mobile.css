@@ -20,11 +20,7 @@ h2{
     top: 25px; right: 25px;
 }
 #home>.container{
-    float: none;
     width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
 }
 #home>.container>img{
     width: 100%;
