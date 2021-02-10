@@ -1,0 +1,82 @@
+/*synopsis.html*/
+#synopsis>.container{
+    width: 80%; height: calc(100vh - 200px);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    opacity: .9;
+    overflow: scroll;
+}
+#synopsis>.container>p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 6px #333;
+}
+/*video.html*/
+#video>.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+}
+/*
+    질문
+    밑에 iframe 높이를 100vh-180px로 맞췄는데 (header+footer=180px)
+    위에 부모 container 높이가 4px 높게나와서 불필요한 스크롤이 생겨요
+*/
+#video>.container>iframe{
+    width: 100%; height: calc(100vh - 200px);
+    margin-bottom: 20px;
+    /* 인라인 요소라 기본 간격을 가져요 ^^ 넵  */
+    display: block;
+}
+/*gallery.html*/
+#gallery>.container{
+    width: 100%; height: calc(100vh - 200px);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#gallery>.container>figure{
+    margin-bottom: 20px;
+}
+#gallery>.container>figure>img{
+    width: 100%;
+}
+#gallery>.container>ul.thumb>li{
+    width: calc(100% / 6);
+    float: left;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#gallery ul.thumb img{
+    width: 100%;
+    vertical-align: middle;
+}
+#gallery ul.thumb li:hover{
+    border: 3px solid red;
+}
+/*ticketing.html*/
+#ticketing>.container{
+    width: 80%; height: calc(100vh - 200px);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+#ticketing>.container>ul>li{
+    float: left;
+    width: calc(100% / 3);
+    margin-bottom: 80px;
+}
+#ticketing>.container>ul img{
+    width: 100%;
+}

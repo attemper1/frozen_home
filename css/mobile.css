@@ -1,0 +1,115 @@
+/*home-mobile*/
+body{
+    background-image: url("../images/main_bg_mobile.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+#main_header{
+    height: 70px;
+}
+#main_header>.toggle{
+    width: 30px;
+    top: 25px; right: 25px;
+}
+#home>.container{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+#home>.container>img{
+    width: 100%;
+    margin-bottom: 60px;
+}
+#home>.container>p{
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+#main_footer{
+    height: 50px;
+    padding-top: 5px;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+}
+#main_footer>ul.sns{
+    margin-bottom: 5px;
+}
+#main_footer>ul.sns>li{
+    display: inline-block;
+    margin: 0 15px;
+}
+#gnb{
+    width: 180px;
+}
+#gnb>.close{
+    top: 20px; right: 25px;
+    width: 30px; height: 30px;
+}
+#gnb>ul.menu{
+    margin-top: 70px;
+}
+#gnb>ul.menu>li{
+    width: 180px; height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+#gnb>ul.sns{
+    margin: 120px auto;
+}
+#gnb>ul.sns>li{
+    float: left;
+    width: 30px;
+    margin: 0 15px;
+}
+#gnb>ul.sns>li:first-child{
+    margin-left: 15px;
+}
+#gnb>ul.sns>li img{
+    width: 100%;
+}
+/*synopsis-mobile*/
+#synopsis>.container{
+    width: 95%; height: 450px;
+    padding: 40px 20px;
+}
+#synopsis>.container>p{
+    font-size: 12px;
+}
+/*video-mobile*/
+#video>.container{
+    margin-top: calc(100vh / 8);
+}
+#video>.container>iframe{
+    width: 100%; height: calc(100vh / 2.5);
+    margin-bottom: 0;
+}
+/*gallery-mobile*/
+#gallery>.container{
+    width: 95%;
+    margin-top: calc(100vh / 8);
+}
+#gallery>.container>ul.thumb>li{
+    width: calc(100% / 3);
+}
+#gallery>.container>ul.thumb>li:nth-child(4){
+    clear: both;
+}
+/*ticketing-mobile*/
+#ticketing>.container{
+    width: 95%; height: 450px;
+    padding: 40px 0;
+}
+#ticketing>.container>h2{
+    margin-bottom: 80px;
+}

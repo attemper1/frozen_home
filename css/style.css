@@ -1,0 +1,131 @@
+*{
+    margin: 0; padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background-image: url("../images/main_bg_pc.jpg");
+    color: #333;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+#main_header{
+    height: 120px;
+}
+#main_header>.toggle{
+    position: absolute;
+    top: 45px; right: 40px;
+    width: 40px;    
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#main_header>.toggle>img{
+    width: 100%;
+}
+#main_header>.toggle:hover{
+    opacity: .6;
+}
+#home>.container{
+    float: right;
+    margin-top: 340px;
+    margin-right: 120px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 6px #333;
+}
+#home>.conainer>img{
+    margin-bottom: 10px;
+}
+#home>.container>p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#main_footer{
+    width: 100%; height: 60px;
+    background: #1674e4;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    /*must apply for gallery.html*/
+    clear: both;
+}
+#main_footer>ul.sns{
+    margin-bottom: 10px;
+}
+#main_footer>ul.sns>li{
+    display: inline-block;
+    margin: 0 15px;
+}
+#gnb{
+    width: 360px; height: 100%;
+    position: fixed;
+    top: 0; right: -360px;
+    background-color: #fff;
+    z-index: 999;
+    transition-duration: .4s;
+}
+#gnb.show{
+    right: 0;
+}
+#gnb>.close{
+    position: absolute;
+    top: 40px; right: 40px;
+    width: 40px; height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#gnb>.close>img{
+    width: 100%;
+}
+#gnb>.close:hover{
+    opacity: .6;
+}
+#gnb>ul.menu{
+    margin-top: 120px;
+}
+#gnb>ul.menu>li{
+    width: 360px; height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+}
+#gnb>ul.menu>li>a{
+    display: block;
+    color: #333;
+}
+#gnb>ul.menu>li>a:hover{
+    background: #1674e4;
+    color: #fff;
+}
+#gnb>ul.menu>li.active a{
+    background: #1674e4;
+    color: #fff;
+}
+#gnb>ul.sns{
+    margin: 200px auto;
+}
+#gnb>ul.sns>li{
+    float: left;
+    margin: 0 20px;
+}
+#gnb>ul.sns>li:first-child{
+    margin-left: 80px;
+}
